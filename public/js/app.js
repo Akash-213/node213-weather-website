@@ -1,5 +1,3 @@
-console.log('Hi Server is started ')
-
 const weatherform = document.querySelector('form')
 const search = document.querySelector('input')
 
