@@ -1,0 +1,58 @@
+h1{
+    font-size: 75px;
+    color: goldenrod;
+    text-decoration-style: dotted;
+}
+
+img{
+    width: 300px;
+    border: 1px solid black;
+}
+
+header{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+header a{
+
+    color: darkgreen;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+body{
+
+    background-color: rgb(243, 243, 236);
+    max-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin:0 auto ;
+
+}
+
+footer{
+    color: blueviolet;
+    font-size: 20px;
+    border-top: 1px solid black;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.main-content{
+
+    font-size: 25px;
+    background-color:lightgoldenrodyellow;
+}
+
+input{
+    font-size: 25px;
+}
+
+button{
+    font-size: 25px;
+    color: navy;
+
+}
