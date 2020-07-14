@@ -8,6 +8,7 @@ const location_address = require('./utils/darksky')
 
 
 const app =express()
+const port = process.env.PORT || 3000
 
 //setup path for express config
 const publicDirectorypath = path.join(__dirname , '../public')
@@ -97,6 +98,6 @@ app.get('*' ,(req,res) =>{
     })
 })
 
-app.listen(3000, ()=> {
-    console.log('Server started')
+app.listen(port, ()=> {
+    console.log('Server started on port : ' +port)
 })
